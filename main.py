@@ -1,8 +1,3 @@
-from tkinter import *
+from MyAwesomePythonApp import MyAwesomePythonApp
 
-root = Tk()
-root.title("Simple Calculator")
-root.geometry("300x300")
-root.resizable(0, 0)
-
-root.mainloop()
+myApp = MyAwesomePythonApp()
